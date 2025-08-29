@@ -29,7 +29,7 @@ def get_local_model_path(model_name: str) -> str:
     将 'Alibaba-NLP/gte-multilingual-base' 转换成本地 cache 路径
     如 ~/.cache/huggingface/hub/models--Alibaba-NLP--gte-multilingual-base/snapshots/<hash>
     """
-    cache_dir = '/home/tanxh/.cache/huggingface/hub'
+    cache_dir = '/home/sehun/.cache/huggingface/hub'
     cache_dir = Path(cache_dir).resolve()
 
     safe_name = model_name.replace("/", "--")
